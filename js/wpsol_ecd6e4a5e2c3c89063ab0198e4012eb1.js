@@ -1,0 +1,3 @@
+/*WPSOL_MINIFIED_JS*/Vue.component('stm-listing-pagination',{data:function(){return{}},created(){},methods:{clickCallback:function(page){this.$emit('pagination-update',page);}},components:{"paginate":VuejsPaginate},props:{url:{default:""},page:{default:0},page_count:{default:0}},template:`<div><paginate
+v-if="page_count > 1"
+v-model="page":page-range="8":pageCount="page_count":containerClass="'pagination'":clickHandler="clickCallback":prev-text="'Prev'":next-text="'Next'"></paginate></div>`,});
